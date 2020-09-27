@@ -20,10 +20,10 @@ public class Constant {
 
   public static final String DATABASE_DIR = "storage.directory";
 
-  public static final byte ADD_PRE_FIX_BYTE_MAINNET = (byte) 0x41;   //41 + address
-  public static final String ADD_PRE_FIX_STRING_MAINNET = "41";
-  public static final byte ADD_PRE_FIX_BYTE_TESTNET = (byte) 0xa0;   //a0 + address
-  public static final String ADD_PRE_FIX_STRING_TESTNET = "a0";
+  public static final byte ADD_PRE_FIX_BYTE_MAINNET = (byte) 0x17;   //41 + address
+  public static final String ADD_PRE_FIX_STRING_MAINNET = "17";
+  public static final byte ADD_PRE_FIX_BYTE_TESTNET = (byte) 0xa8;   //a0 + address
+  public static final String ADD_PRE_FIX_STRING_TESTNET = "a8";
 
   // config for transaction
   public static final long TRANSACTION_MAX_BYTE_SIZE = 500 * 1_024L;
